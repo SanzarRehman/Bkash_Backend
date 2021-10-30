@@ -5,11 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.validator.constraints.UniqueElements;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 
 @Entity
@@ -17,14 +15,20 @@ import javax.validation.constraints.NotBlank;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Department {
+public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long departmentID;
+    private long customerID;
     @NotBlank(message = "Give Name")
-    private String departmentName;
-    private String departmentAddresss;
-    private String departmentCode;
+    private String customerName;
+    private String customerAddresss;
+    private String customerCode;
+    private int balance;
+    private int pin;
+    private int NID;
+    private int Phone;
+    private String email;
+
 
 
 }

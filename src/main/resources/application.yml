@@ -1,5 +1,5 @@
 server:
-  port: 5432
+  port: ${PORT:5432}
 
 
 spring:
@@ -11,9 +11,9 @@ spring:
 spring:
   datasource:
 
-    password: 4f8b8c40df43183a84956a17141ee971201211ed3495a131e557423ac571da93
-    url: jdbc:postgresql://ec2-52-209-171-51.eu-west-1.compute.amazonaws.com:5432/d762umm80qs4kj
-    username: kqnfefngoqdgbd
+    password: d5bca8560e11bc3c06c2b1fb851887b8c552d82f65ce14065f726428038636e7
+    url: jdbc:postgresql://ec2-3-233-55-123.compute-1.amazonaws.com:5432/d8and89v4smfea
+    username: tahkqmxjcsmjqj
   
   config:
     activate:
@@ -26,7 +26,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     password: sanzar
-    url: jdbc:mysql://localhost:3306/dcbapp
+    url: jdbc:mysql://localhost:3306/asaa
     username: root
   jpa:
     hibernate:
