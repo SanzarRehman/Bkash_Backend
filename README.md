@@ -1,5 +1,5 @@
 # Bkash_Backend
-Features /n
+Features \n
 -Application events and listeners
 -Admin features
 -Externalized Configuration
