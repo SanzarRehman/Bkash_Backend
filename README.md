@@ -76,7 +76,7 @@ Table sample
     
   },
   
- API Sample
+ API TEST Sample
  
  https://sanzar.herokuapp.com/customers
  
