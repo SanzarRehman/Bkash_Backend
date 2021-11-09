@@ -22,6 +22,7 @@ Features
 ###############################################
 
 Database-Postgresql
+Server-Heroku
 
 
 Allowed HTTPs requests:
