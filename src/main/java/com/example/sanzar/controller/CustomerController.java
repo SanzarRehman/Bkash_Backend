@@ -44,19 +44,19 @@ return customerService.fetchCustomerbyid(customerId);
 //        return customerService.fetchCustomerbyid(customerPhone);
 
 //    }
-    @GetMapping("/customers/{pin}")
+    @GetMapping("/customers/pin/{pin}")
     public Customer fetchCustomerbyPin(@PathVariable Long customerPin) throws CustomerNotFound {
 
         return customerService.fetchbyEmailAndPin(customerPin);
 
     }
-    @DeleteMapping("/customers/{id}")
+    @DeleteMapping("/customers/id/{id}")
     public String deleteCustomer(@PathVariable("id")Long customerID)
     {
         customerService.deleteCustomer(customerID);
         return "deleted";
     }
-    @PutMapping("/customers/{id}")
+    @PutMapping("/customers/id/{id}")
     public Customer updateCustomer(@PathVariable("id")Long customerID, @RequestBody Customer customer)
     {
 
