@@ -1,13 +1,23 @@
 # Bkash_Backend
-Features \n
+Features 
+
 -Application events and listeners
+
 -Admin features
+
 -Externalized Configuration
+
 -Properties Files
+
 -YAML Support
+
 -Type-safe Configuration(beta)
+
+
 -Logging
+
 -Security(Beta)
+
 Allowed HTTPs requests:
 PUT     : To create resource /Update
 POST    : Update resource
